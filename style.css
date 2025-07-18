@@ -80,6 +80,30 @@
             color: #00cec9;
             border-bottom: 2px solid #00cec9;
         }
-        body {
-            padding-top: 70px;
+
+
+        .card-row {
+            display: flex;
+            gap: 2rem;
+            margin-top: 3rem;
+            justify-content: center;
+        }
+        .card {
+            padding: 2rem 2.5rem;
+            border-radius: 12px;
+            color: #fff;
+            font-size: 1.3rem;
+            font-weight: bold;
+            box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+            min-width: 160px;
+            text-align: center;
+        }
+        .card-commit {
+            background: #27ae60;
+        }
+        .card-feature {
+            background: #f39c12;
+        }
+        .card-broke {
+            background: #e74c3c;
         }
