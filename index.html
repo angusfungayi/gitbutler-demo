@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Centered Website</title>
+    <style>
+        body {
+            background: #3498db;
+            min-height: 100vh;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .main-text {
+            color: #fff;
+            font-size: 3rem;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        .button-group {
+            display: flex;
+            gap: 1.5rem;
+        }
+        .button-group button {
+            padding: 1rem 2rem;
+            font-size: 1.2rem;
+            border: none;
+            border-radius: 8px;
+            background: #fff;
+            color: #3498db;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background 0.2s, color 0.2s;
+        }
+        .button-group button:hover {
+            background: #2980b9;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div class="main-text">Welcome to My Website</div>
+    <div class="button-group">
+        <button>Button 1</button>
+        <button>Button 2</button>
+    </div>
+</body>
+</html>
